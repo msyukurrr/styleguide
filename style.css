@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: 'passion one', cursive;
-  font-size: 75px;
+  font-size: 70px;
   margin: 50px;
   }
   
@@ -128,15 +128,17 @@ body {
       margin:0;
       top:0;
      text-align: center;
-     color:#B1DFFF;
+     
   }
   .titlecont{
       display:flex;
   ;
   }
-  .desctext{
+  
+  #desctext{
       text-align: center;
   }
+
   span{
       display: block;
       position: relative;
@@ -255,7 +257,70 @@ body {
   }
   
   
-  /*Typography*/
+  /*logo*/
+  .par {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.main {
+    margin-top: 80px;
+}
+
+.head {
+    background-color: #d6eeff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: stretch;
+        padding: 20px;
+}
+
+.three {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: stretch;
+        padding: 20px;
+}
+
+#bg {
+        background: #939393;
+        border-radius: 20px;
+    }
+
+.column {
+        margin: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: stretch;
+            align-content: stretch;
+    }
+
+.pics {
+    margin-top: 80px;
+}
+
+.favicon {
+    margin-top: 80px;
+    margin-left: 120px;
+}
   
   /* Imagery, Icons & Graphics */
 
@@ -275,4 +340,22 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 50px;
 }
-  
+
+
+.colourhtml, .logohtml, .graphicshtml, .typographyhtml {
+    display: flex;
+    font-size: 40px;
+    font-family: 'passion one', cursive;
+    margin: 50px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+}
+
