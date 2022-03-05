@@ -1,0 +1,375 @@
+body {
+    margin: 165px;
+  }
+  
+  .background {
+    background-color: #EBB2AD;
+}
+
+/* INTRO HTML */
+
+.intro_background{
+    background-color: #D6EEFF;
+}
+
+.intro_h1 {
+    color: white;
+    font-size: 80px;
+    -webkit-text-stroke: 2px pink;
+}
+
+.intro_header {
+    background-color: peachpuff;
+    width: 700px;
+    height: 200px;
+    border-radius: 20px;
+}
+  /*colourpalette*/
+  
+  .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'passion one', cursive;
+  font-size: 70px;
+  margin: 50px;
+  }
+  
+  .palette {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .names {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-size: 20px;
+      font-family: 'Nunito', sans-serif;
+  }
+  
+  .colour {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 20px;
+      font-family: 'Nunito', sans-serif;
+      margin: 50px;
+  }
+  
+  .bgheader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'passion one', cursive;
+  font-size: 50px;
+  margin: 50px;
+  }
+  
+  .textheader {
+      display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'passion one', cursive;
+  font-size: 50px;
+  margin: 50px;
+  }
+  
+  .compheader {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-family: 'passion one', cursive;
+      font-size: 50px;
+      margin: 50px;
+  }
+  
+  .background, .illustrations, .components {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 20px;
+      font-family: 'Nunito', sans-serif;
+      margin: 50px;
+  }
+  
+  .pictures {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 50px;
+  }
+  
+  .button, .cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 50px;
+  }
+  
+  .background > img {
+      margin: 40px;
+  }
+  
+  .brown, .green, .pink, .blue, .lightbrown {
+      margin: 58px;
+  }
+  
+  .brown {
+      color: #502419;
+  }
+  
+  .green {
+      color: #7ea172;
+  }
+  
+  .pink {
+      color: #f4afab;
+  }
+  
+  .lightbrown {
+      color: #af8d86;
+  }
+  
+  .blue {
+      color: #d6eeff;
+  }
+    
+  /*typography*/
+  
+  .title {
+      display: flex;
+      position: relative;
+      font-family: 'passion one', cursive;
+      font-size: 75px;
+      color:black;
+      margin:0;
+      top:0;
+     text-align: center;
+     
+  }
+  .titlecont{
+      display:flex;
+  ;
+  }
+  
+  #desctext{
+      text-align: center;
+  }
+
+  span {
+      display: block;
+      position: relative;
+      margin: auto;
+      font-family: 'nunito', sans-serif;
+      text-align: center;
+      color:#368ef9;
+      margin-left:150px;
+  }
+  .blue{
+      background-color:#61A8FF;
+      width:75px;
+      height:75px;
+      display:flex;
+      position:relative;
+      margin:50px;
+      border-radius: 50px;
+      font-family: 'nunito', sans-serif;
+      font-size: 15px;
+      align-items: center;
+      justify-content: center;
+  }
+  .pink{
+      background-color:#EBB2AD;
+      border:2px solid black;
+      width:75px;
+      height:75px;
+      display:flex;
+      position:absolute;
+      left: 120px;
+      margin:50px;
+      border-radius: 60px;
+      font-family: 'nunito', sans-serif;
+      font-size: 15px;
+      align-items: center;
+      justify-content: center;
+  }
+  .black{
+      background-color:black;
+      width:75px;
+      height:75px;
+      display:flex;
+      position:relative;
+      left: 50px;
+      border-radius: 60px;
+      font-family: 'nunito', sans-serif;
+      font-size: 15px;
+      align-items: center;
+      justify-content: center;
+      color: #EBB2AD;
+  }
+  .white{
+      background-color: white;
+      width:75px;
+      height:75px;
+      display:flex;
+      border-radius: 50px;
+      position: relative;
+      left: 100px;
+      font-family: 'nunito', sans-serif;
+      font-size: 15px;
+      align-items: center;
+      justify-content: center;
+  }
+  .brown{
+      background-color: #89664C;
+      width:75px;
+      height:75px;
+      display:flex;
+      border-radius: 50px;
+      position: relative;
+      left: 60px;
+      font-family: 'nunito', sans-serif;
+      font-size: 15px;
+      align-items: center;
+      justify-content: center;
+  }
+  .firstcont{
+      display: inline-flex;
+      position:relative; 
+  }
+  .seccont{
+      display: inline-flex;
+      
+  }
+  .thirdcont{
+     display: inline-flex;
+    
+  }
+  
+  h1, h2, h3 {
+      font-family: 'passion one', cursive;
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+  }
+  p{
+      font-family: 'nunito', sans-serif;
+      display: flex;
+      justify-content: center;
+      padding:2rem;
+      margin-left:150px;
+      font-weight:bold;
+  }
+  .first {
+      font-size: 50px;
+      margin-left:100px;
+  }
+  .second{
+      font-size: 30px;
+      margin-left:150px;
+  }
+  .third{
+      font-size: 20px;
+      margin-left:240px;
+  }
+  
+  
+  /*logo*/
+
+  .par {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.main {
+    margin-top: 80px;
+}
+
+.head {
+    background-color: #d6eeff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: stretch;
+        padding: 20px;
+}
+
+.three {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: stretch;
+        padding: 20px;
+}
+
+#bg {
+        background: #939393;
+        border-radius: 20px;
+    }
+
+.column {
+        margin: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: stretch;
+            align-content: stretch;
+    }
+
+.pics {
+    margin-top: 80px;
+}
+
+.favicon {
+    margin-top: 80px;
+    margin-left: 120px;
+}
+  
+
+
+  /* Imagery, Icons & Graphics */
+
+  .text {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    margin: 50px;
+}
+
+
+.colourhtml, .logohtml, .graphicshtml, .typographyhtml {
+    display: flex;
+    font-size: 40px;
+    font-family: 'passion one', cursive;
+    margin: 50px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    border: 10px solid pink;
+}
+
+
