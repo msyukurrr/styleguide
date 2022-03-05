@@ -139,34 +139,124 @@ body {
       color: #d6eeff;
   }
     
+/* logo */
+body {
+    margin: 165px;
+  }
+
+
+h1 {
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 75px;
+}
+
+.par {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
+
+}
+
+.main {
+    margin-top: 80px;
+}
+
+.head {
+    background-color: #d6eeff;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: stretch;
+        padding: 20px;
+}
+
+.three {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: stretch;
+        padding: 20px;
+}
+
+#bg {
+        background: #939393;
+        border-radius: 20px;
+    }
+
+.column {
+        margin: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: stretch;
+            align-content: stretch;
+    }
+
+.pics {
+    margin-top: 80px;
+}
+
+.favicon {
+    margin-top: 80px;
+    margin-left: 120px;
+}
   /*typography*/
   
   .title {
-    display: flex;
     position: relative;
+    display: flex;
+    justify-content: center;;
     font-family: 'passion one', cursive;
     font-size: 75px;
     color:black;
-    margin:0;
-    top:0;
+    margin: 0;
+    top: 100px;
    text-align: center;
-   color:#B1DFFF;
+   color: black;
 }
-.titlecont{
-    display:flex;
-;
+
+.typo{
+    display: flex;
+    justify-content: center;
+    color:#368ef9;
+
+    
 }
-.desctext{
-    text-align: center;
+.list {
+    top: 0;
+    position: relative;
+    font-size: 20px;
 }
+
 span{
     display: block;
     position: relative;
-    margin: auto;
     font-family: 'nunito', sans-serif;
     text-align: center;
-    color:#368ef9;
-    margin-left:150px;
+    color:grey;
+    right: 10px;
+    
+    
 }
 .blue{
     background-color:#61A8FF;
@@ -239,13 +329,18 @@ span{
 .firstcont{
     display: inline-flex;
     position:relative; 
+    top: 50px;
 }
 .seccont{
     display: inline-flex;
+    position: relative;
+    top: 100px;
     
 }
 .thirdcont{
    display: inline-flex;
+   position: relative;
+   top: 70px;
   
 }
 
@@ -255,25 +350,24 @@ h1, h2, h3 {
     justify-content: center;
     padding: 2rem;
 }
-p{
-    font-family: 'nunito', sans-serif;
-    display: flex;
-    justify-content: center;
-    padding:2rem;
-    margin-left:150px;
-    font-weight:bold;
-}
+
 .first {
     font-size: 50px;
     margin-left:100px;
 }
 .second{
     font-size: 30px;
-    margin-left:150px;
+    margin-left:200px;
+    margin-top: 5px;
 }
 .third{
     font-size: 20px;
-    margin-left:240px;
+    margin-left:200px;
+    margin-top: 60px;
+}
+
+.fourth {
+    margin-top: 100px;
 }
   
 
@@ -306,4 +400,109 @@ a.button {
     border: 10px solid pink;
 }
 
+.tennisball {
+    -webkit-animation: mover 1s infinite alternate;
+}
 
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-40px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-40px); }
+}
+
+.graphics, .sizing, .animations, .details {
+    display: flex;
+    justify-content: center;
+}
+
+.small_header {
+        display: flex;
+        flex-direction: column;
+        font-family: 'passion one', cursive;
+        font-size: 30px;
+        margin: 50px;
+}
+
+.small_text {
+        display: flex;
+        flex-direction: column;
+        font-family: 'nunito', sans-serif;
+        font-size: 15px;
+        margin: 0;
+}
+
+/* navigation bar */
+
+nav {
+    width:80%;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_header a {
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+ul {
+
+    font-family: 'nunito', sans-serif;
+}
+
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+
+
+.team_picture {
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
